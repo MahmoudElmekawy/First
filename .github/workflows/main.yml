@@ -14,15 +14,14 @@ jobs:
 
 
     steps:
-      - name: 'print before folder contents'
-        run: ls
-
-
       - uses: actions/checkout@v3
 
-      
-      - name: 'print after folder contents'
-        run: ls -a
+
+
+      - name: "login to dockerhub"
+        run: docker login --username mahmoud2992002 --password dckr_pat_tmClmVCr4uL9OxtTGW6eUs7doJc
+
+
 
 
 
