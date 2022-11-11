@@ -1,1 +1,25 @@
+on:
+  push:
+    branches:
+      - master
+      
+
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: 'testing gethub'
+        run: pwd
+
+      - name: 'testing print ahmed'
+        run: echo Mahmoud
+
+
+
 
