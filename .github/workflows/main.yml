@@ -22,7 +22,7 @@ jobs:
 
       
       - name: 'print after folder contents'
-        run: ls
+        run: ls -a
 
 
 
